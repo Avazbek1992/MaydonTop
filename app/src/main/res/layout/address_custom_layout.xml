@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:weightSum="5"
+    tools:ignore="DisableBaselineAlignment">
+
+    <ImageView
+        android:id="@+id/addresImageView"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="10sp"
+        android:layout_weight="3"
+        android:src="@drawable/maydon4"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/addressTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go'zal mini stadion"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1sp"
+            android:text="Manzil: Namangan shahar, Go'zal dahasi, J. Manguberdi ko'chasi 7-uy"
+            android:textColor="@color/black" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/addressTelefon"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="1sp"-->
+        <!--            android:text="Tel: (90) 123 45 67,(90) 712 55 66"-->
+        <!--            android:textColor="@color/black" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/addressSite"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="1sp"-->
+        <!--            android:text="https://www.gms.uz"-->
+        <!--            android:textColor="@color/black" />-->
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_marginTop="1sp"-->
+        <!--            android:layout_marginBottom="2sp"-->
+        <!--            android:layout_height="wrap_content">-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="15sp"-->
+        <!--                android:layout_height="15sp"-->
+        <!--                android:src="@drawable/telegram_logo"-->
+        <!--                tools:ignore="ContentDescription" />-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="15sp"-->
+        <!--                android:layout_height="15sp"-->
+        <!--                android:layout_marginStart="10sp"-->
+        <!--                android:src="@drawable/facebook"-->
+        <!--                tools:ignore="ContentDescription" />-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="15sp"-->
+        <!--                android:layout_height="15sp"-->
+        <!--                android:layout_marginStart="10sp"-->
+        <!--                android:src="@drawable/instagram"-->
+        <!--                tools:ignore="ContentDescription" />-->
+        <!--        </LinearLayout>-->
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="50sp"
+    android:layout_weight="100"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Maydon Top"
+        android:layout_marginBottom="50sp"
+        android:textColor="@color/purple_700"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/loginEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_border"
+        android:hint="Login:"
+        android:padding="10sp"
+        android:textSize="25sp"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,TextFields" />
+
+    <EditText
+        android:id="@+id/parolEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/edit_border"
+        android:hint="Parol:"
+        android:padding="10sp"
+        android:textSize="25sp"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,TextFields" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/edit_border"
+        android:backgroundTint="@color/purple_700"
+        android:paddingLeft="60sp"
+        android:paddingRight="60sp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Ro'yhatdan o'tish"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="yoki"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:textSize="20sp"
+        tools:ignore="UselessLeaf">
+
+        <ImageView
+            android:id="@+id/telegram_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="15sp"
+            android:src="@drawable/telegram_logo"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/gmail_image"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="15sp"
+            android:src="@drawable/gmail"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/facebook_image"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="15sp"
+            android:src="@drawable/facebook"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</LinearLayout>
